@@ -1,0 +1,54 @@
+@media only screen and (max-width: 900px) {
+	.menu {
+	float: left;
+	
+
+}
+	.menu li {
+		display: block;
+	}
+}
+.marcaagua {
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	transform: rotate(-45deg);
+	display: none;
+}
+
+@media print {
+	.marcaagua {
+	position: absolute;
+	top: 60%;
+	left: 20%;
+	transform: rotate(-45deg);
+	display: block;
+}
+	.menu {
+		display: none;
+	}
+}
+
+.menu li a {
+	text-decoration: none;
+}
+
+.menu li {
+	display: inline;
+}
+li>a{
+	text-decoration: none;
+	background-color: #fafafa;
+	padding: 10px;
+}
+li>a:hover{
+	background-color: #a0a0a0;
+}
+.menu {
+	border-width: 3px;
+	border-style: solid;
+}
+.content {
+	border-width: 3px;
+	border-style: solid;
+}
